@@ -33,6 +33,12 @@ I am very tempted to add an Arduino Mega to handle UI, the ESP32 for IO only. Th
 
 I'm using PlatformIO on VSCode (on Ubuntu). This seems **much** more convenient for larger projects than the Arduino IDE.
 
+## Current Status
+
+More frequent updates will appear in [notes.md]()
+
+**2020-10-16**
+
 So far I've just hooked up the keypad and display to check they work (yes!). 
 Libs:
 * https://github.com/Chris--A/Keypad
