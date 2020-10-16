@@ -14,10 +14,15 @@ Right now my main focus is still on [Chatterbox](https://github.com/danja/chatte
 
 *Probably* the first bits I'll be playing with will be around delay lines and granular synthesis.
 
+**PS. very soon after uploading the above, decided to add an Arduino Mega 2560.**
+
+![Sound Machine Hardware](https://github.com/danja/sound-machine/blob/main/docs/images/hardware_2020-10-16_later.jpeg?raw=true)
+
 ## Components
 
 * Arduino Due : main audio processing
-* ESP32 : user interface & I/O
+* Arduino Mega 2560 : user interface (keypad, display(s), rotary encoders)
+* ESP32 : I/O (Wifi/Web, MIDI, Bluetooth)
 * External stereo ADC (I2S)
 * External stereo DAC (I2S)
 * 4x4 Keypad (matrix)
@@ -25,9 +30,7 @@ Right now my main focus is still on [Chatterbox](https://github.com/danja/chatte
 * Rotary Encoders
 * External PSU
 
-A minor snag so far is that the keypad is taking 8 GPIO lines from the ESP32. I want a lot of knobs to twiddle so may look at multiplexing the keypad and/or rotary encoders. The Due has quite a few GPIO lines, but I want to keep this device's processing focussed on the audio.
-
-I am very tempted to add an Arduino Mega to handle UI, the ESP32 for IO only. These modules are so inexpensive, and I need to look at inter-module comms anyway, for ESP32-Due. 
+*I may well add a little TFT graphic display*
 
 ## Code
 
@@ -45,7 +48,10 @@ Libs:
 * https://gitlab.com/tandembyte/LCD_I2C 
   * see also : https://randomnerdtutorials.com/esp32-esp8266-i2c-lcd-arduino-ide/
 
+## Design Notes
 
+It may seem perverse using 3 fairly low-capability modules rather than, say, putting everything on a Raspberry Pi. The coding there would almost certainly be easier. But I reckon I can still keep the total cost down, I already have these modules (!) and also any finished machine doesn't necessarily have to use all the modules. It's also modular! The *blocks*, eg. Mega + UI components, could be used alongside a completely different system. 
+What's more this should be more fun! 
 
 
 
