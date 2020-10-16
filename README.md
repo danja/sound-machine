@@ -16,6 +16,8 @@ Right now my main focus is still on [Chatterbox](https://github.com/danja/chatte
 
 **PS. very soon after uploading the above, decided to add an Arduino Mega 2560.**
 
+The software for this module I'm putting in a separate Github repo : [sound-machine-mega2560](https://github.com/danja/sound-machine-mega2560).
+
 ![Sound Machine Hardware](https://github.com/danja/sound-machine/blob/main/docs/images/hardware_2020-10-16_later.jpeg?raw=true)
 
 ## Components
