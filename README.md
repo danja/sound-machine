@@ -36,7 +36,10 @@ I'm using PlatformIO on VSCode (on Ubuntu). This seems **much** more convenient 
 So far I've just hooked up the keypad and display to check they work (yes!). 
 Libs:
 * https://github.com/Chris--A/Keypad
-* https://gitlab.com/tandembyte/LCD_I2C
+* https://gitlab.com/tandembyte/LCD_I2C 
+  * see also : https://randomnerdtutorials.com/esp32-esp8266-i2c-lcd-arduino-ide/
+
+
 
 
 
