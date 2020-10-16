@@ -35,7 +35,7 @@ I'm using PlatformIO on VSCode (on Ubuntu). This seems **much** more convenient 
 
 ## Current Status
 
-More frequent updates will appear in [notes.md]()
+More frequent updates will appear in [notes.md](https://github.com/danja/sound-machine/blob/main/docs/notes.md)
 
 **2020-10-16**
 
